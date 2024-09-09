@@ -68,7 +68,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Jongha Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/favicon/MOO.jpg"
   bio              : "I am an **amazing** person."
   location         : "Republic of Korea"
   email            :
@@ -321,7 +321,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: # true
-      share: false
+      share: true
       related: true
+      sidebar:
+        nav: "docs"
