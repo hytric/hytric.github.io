@@ -7,3 +7,24 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+h2 {
+    font-size: 1.7rem; /* 약 36px (2.25 * 16px) */
+}
+
+h3 {
+    font-size: 1.3rem; /* 약 28px (1.75 * 16px) */
+}
+
+h4 {
+    font-size: 1rem; /* 약 24px (1.5 * 16px) */
+}
+
+h5 {
+    font-size: 0.7rem; /* 약 20px (1.25 * 16px) */
+}
+
+p {
+    font-size: 0.9rem !important;   /* 약 14.4px로 설정 */
+}
