@@ -180,6 +180,8 @@ Navigation을 위해서는 다음 Map에서 천장과 바닥면의 point cloud�
     ![Untitled](/assets/Images/2022-12-25-Future-Vehicle-Project/Untitled%202.png)
     
     다음 PCL 에 구현되어있는 면 모델을 이용하여 바닥과 벽 천장 감지 가능
+
+    ---
     
 2.  **pcl 파일 정렬 순서 이용**
     
@@ -203,13 +205,16 @@ Navigation을 위해서는 다음 Map에서 천장과 바닥면의 point cloud�
     - 혹은 vi 편집기 명령어를 통해 중간 벽 point만 추출
         
         [https://blockdmask.tistory.com/25](https://blockdmask.tistory.com/25)
-        
-3. **ros_pcl 이용**
+
+    ---
+
+    3. **ros_pcl 이용**
     
     PassThrough Pcl_manager 
     
     [Wiki](http://wiki.ros.org/pcl_ros/Tutorials/PassThrough%20filtering)
     
+    ---
     
 4. **카메라 각도 이용**
     
