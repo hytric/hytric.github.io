@@ -26,7 +26,7 @@ url                      : "https://hytric.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/hytric/hytric.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/favicon/favicon-16x16.png"
 masthead_title           : "세상 밖으로 나온 무"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200

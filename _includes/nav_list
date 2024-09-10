@@ -8,6 +8,7 @@
       <li>
         <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/PaperReview"> 📖 논문분석 ({{ site.categories['PaperReview'].size }})</a></span>
         <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/Startup"> 🎈 창업 ({{ site.categories['Startup'].size }})</a></span>
+        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/Project"> 🛖 프로젝트 ({{ site.categories['Project'].size }})</a></span>
       </li>
   </ul>
 </nav>
