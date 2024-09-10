@@ -208,7 +208,7 @@ Navigation을 위해서는 다음 Map에서 천장과 바닥면의 point cloud�
 
     ---
 
-    3. **ros_pcl 이용**
+3. **ros_pcl 이용**
     
     PassThrough Pcl_manager 
     
