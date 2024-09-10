@@ -167,7 +167,7 @@ Navigation을 위해서는 다음 Map에서 천장과 바닥면의 point cloud�
 
 **height filtering 방법 고안**
 
-### 1. **pcl filtering**
+1. **pcl filtering**
     
     point cloud python reference
     
@@ -181,7 +181,7 @@ Navigation을 위해서는 다음 Map에서 천장과 바닥면의 point cloud�
     
     다음 PCL 에 구현되어있는 면 모델을 이용하여 바닥과 벽 천장 감지 가능
     
-### 2.  **pcl 파일 정렬 순서 이용**
+2.  **pcl 파일 정렬 순서 이용**
     
     PCL의 WIDTH, POINTS 입력 값 변경을 통해 읽는 point 개수 조절 가능
     
@@ -204,14 +204,14 @@ Navigation을 위해서는 다음 Map에서 천장과 바닥면의 point cloud�
         
         [https://blockdmask.tistory.com/25](https://blockdmask.tistory.com/25)
         
-### 3. **ros_pcl 이용**
+3. **ros_pcl 이용**
     
     PassThrough Pcl_manager 
     
     [Wiki](http://wiki.ros.org/pcl_ros/Tutorials/PassThrough%20filtering)
-
     
-### 4. **카메라 각도 이용**
+    
+4. **카메라 각도 이용**
     
     ![Untitled](/assets/Images/2022-12-25-Future-Vehicle-Project/Untitled%203.png){: width="40%"}
     
