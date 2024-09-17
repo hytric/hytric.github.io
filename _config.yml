@@ -199,12 +199,18 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+# MathJax 설정 추가
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 
 # Markdown Processing
