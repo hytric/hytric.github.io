@@ -185,25 +185,9 @@ x는  $$\mathcal{E}_{cond}$$ 의 output (zero-convolution) → 다음 논문에�
 
 Video-LDM Unet → pre-trained T2V
 
-the UNet’s skip-connection features $$x_{SC} ∈ \mathbb{R}^{
+the UNet’s skip-connection features $$x_{SC} ∈ \mathbb{R}^{ b×F ×h×w×c }$$
 
-	
-		
-		
-	
-	
-		
-			
-				
-b×F ×h×w×c
-
-				
-			
-		
-	
-}$$
-
-We apply spatio-temporal group norm, and a linear projection $P_{in}$ on $x_{CS}$.
+We apply spatio-temporal group norm, and a linear projection $$P_{in}$ on $x_{CS}$$.
 
 				
 $$x′_{SC} ∈ R^{(b·w·h)×F×c}$$
