@@ -1,9 +1,20 @@
-# IP-Adapter: Text Compatible Image Prompt Adapter for
-Text-to-Image Diffusion Models
+---
+title: "[논문분석] IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models"
+last_modified_at: 2024-5-14
+categories:
+  - PaperReview
+excerpt: "Image generaion에서 다양한 Condition을 위한 Finetuning 방법"
+use_math: true
+classes: wide
+---
 
-Created by: 김종하
-Created time: 2024년 8월 30일 오후 5:19
-Tags: editing
+> Image generaion에서 다양한 Condition을 위한 Finetuning 방법
+[[Page](https://ip-adapter.github.io/), [Paper](https://arxiv.org/abs/2308.06721)] , [Code](https://github.com/tencent-ailab/IP-Adapter) 
+
+
+<br>
+
+
 
 # Abstract
 
@@ -54,7 +65,7 @@ cross attention layer의 key와 value의 projection weights는 텍스트 특징�
 
 따라서 본 논문에 IP-Adapter는 텍스트 기능과 이미지 기능에 대해 분리된 교차 주의 메커니즘을 채택
 
-![image.png](image.png)
+![image.png](/assets/Images/2024-8-30-IP-Adapter/image.png)
 
 # Method
 
@@ -126,6 +137,10 @@ $$
 
 ### Implementation Details
 
-SD v$1.5^2$  and  OpenCLIP ViT-H/1
+SD v$$1.5^2$$  and  OpenCLIP ViT-H/1
 
-![image.png](image%201.png)
+![image.png](/assets/Images/2024-8-30-IP-Adapter/image%201.png)
+
+<br>
+
+이후 코드를 활용해 Scene Graph를 받아 Image 생성하는 프로젝트 진행 예정
