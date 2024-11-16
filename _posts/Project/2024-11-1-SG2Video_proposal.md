@@ -8,7 +8,8 @@ use_math: true
 classes: wide
 ---
 
-> Inha univ.  |  Scene Graph를 Condition으로 받는 video generation diffusion model 
+> Inha univ.  |  Scene Graph를 Condition으로 받는 video generation diffusion model  
+> 
 [SG2Video 개념 정리한 페이지](https://hytric.github.io/project/SG2Video_proposal/)  
 [SG2Video proposal 정리한 페이지](https://hytric.github.io/project/SG2Video/)  
 [SG2Video 구현 정리한 페이지](https://hytric.github.io/project/SG2Video/)
