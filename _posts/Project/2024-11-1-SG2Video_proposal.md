@@ -9,7 +9,9 @@ classes: wide
 ---
 
 > Inha univ.  |  Scene Graph를 Condition으로 받는 video generation diffusion model 
-
+[SG2Video 개념 정리한 페이지](https://hytric.github.io/project/SG2Video_proposal/)  
+[SG2Video proposal 정리한 페이지](https://hytric.github.io/project/SG2Video/)  
+[SG2Video 구현 정리한 페이지](https://hytric.github.io/project/SG2Video/)
 > 
  
 ### 다음은 PDF 파일을 PNG로 변환하여 업로드 됩니다.
