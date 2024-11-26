@@ -30,6 +30,9 @@ StyleGAN은 video에서 동작하기 어렵다.
 2. clip based multimodal embedding
 3. frame generator
 
+<br>
+
+
 # Introduction
 
 sound(2차원 정보) → video(3차원 정보)  generation이 쉽지 않음
@@ -48,6 +51,9 @@ Sound-encoder 를 통해 latent space *W*+에서 처음 trajectory의 연관성
 
 StyleGAN의 latent space에서 latent vector를 움직이면서 사실적인 video를 생성
 
+<br>
+
+
 # **Related Work**
 
 ***StyleGAN Latent Space Analysis***
@@ -63,6 +69,9 @@ Latent Space에서 특정 방향(예: 얼굴 표정, 머리 색깔)을 이동하
 conditional variational autoencoder method
 
 latent space에서 다음 video frame의 분포를 예측
+
+<br>
+
 
 # **Sound-guided Video Generation**
 
@@ -81,6 +90,9 @@ Fig. 3: An overview of our proposed sound-guided video generation model. Our mod
 1. 입력 sound를 Sound Inversion Encoder 로 제공
 2. video 생성을 위한 latent code를 생성
 3. Latent Space에서 넘어온 latent vector로 일괄된 frame을 생성
+
+<br>
+
 
 ## Inverting Sound Into the StyleGAN Latent Space
 
@@ -120,6 +132,9 @@ audio-video clip loss, audio-text clip loss
 
 $$\bar{w}_a$$ 는  encoder를 통해 생성된 latent code의 평균값
 
+<br>
+
+
 ## ***Sound-guided Semantic Video Generation***
 
 ![image.png](/assets/Images/2024-11-20-Sound2video/image%203.png)
@@ -154,11 +169,17 @@ $$
 
 최종 loss function
 
+<br>
+
+
 # Experiments
 
 ![image.png](/assets/Images/2024-11-20-Sound2video/image%204.png)
 
 ![image.png](/assets/Images/2024-11-20-Sound2video/image%205.png)
+
+<br>
+
 
 ## Ablation Studies
 
