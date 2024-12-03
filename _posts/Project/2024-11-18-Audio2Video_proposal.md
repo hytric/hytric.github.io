@@ -16,7 +16,9 @@ classes: wide
 
 ### 다음은 PDF 파일을 PNG로 변환하여 업로드 됩니다.
 
-![PDF Page 1](/assets/Images/2024-11-18-Audio2Video_proposal/page_1.png)
-![PDF Page 2](/assets/Images/2024-11-18-Audio2Video_proposal/page_2.png)
-![PDF Page 3](/assets/Images/2024-11-18-Audio2Video_proposal/page_3.png)
+![PDF Page 1](/assets\Images\2024-11-18-Audio2Video_proposal\Audio2Video_Proposal_page_1.jpg)
+![PDF Page 2](/assets\Images\2024-11-18-Audio2Video_proposal\Audio2Video_Proposal_page_2.jpg)
+![PDF Page 3](/assets\Images\2024-11-18-Audio2Video_proposal\Audio2Video_Proposal_page_3.jpg)
+![PDF Page 4](/assets\Images\2024-11-18-Audio2Video_proposal\Audio2Video_Proposal_page_4.jpg)
+![PDF Page 5](/assets\Images\2024-11-18-Audio2Video_proposal\Audio2Video_Proposal_page_5.jpg)
 
