@@ -83,17 +83,17 @@ image conditioning + noise pose embedding : query
 
 ## **Feature Extraction**
 
-**input image** : $I_{input} ∈ \mathbb{R}^{256×256×3}$
+**input image** : $$I_{input} ∈ \mathbb{R}^{256×256×3}$$
 
 - 사람을 Bounding box 처리 → 분석 대상 사람
 
-**object features** : $F_{Obj}∈\mathbb{R}^{8×8×1024}$ 
+**object features** : $$F_{Obj}∈\mathbb{R}^{8×8×1024}$$
 
 - Pretrained third ResNet block’s feature maps 활용
 - **공간적(spatial)** 정보를 유지
 - ROI Pooling(Region of Interest Pooling) → 특정 관심 영역만 집중적으로 처리
 
-**Image feature** : $F_{Obj}$ 
+**Image feature** : $$F_{Obj}$$ 
 - Pretrained Fourth ResNet block’s feature maps 활용
 - MLP 활용 ⇒ Each joint confidence 출력
 
@@ -134,7 +134,7 @@ $$
 A = Q \cdot K^T
 $$
 
-Adjacency Matrix : joint 간의 연결 구조 행렬 , $A_{adj}​∈R^{N_J​×N_J}.$
+Adjacency Matrix : joint 간의 연결 구조 행렬 , $$A_{adj}​∈R^{N_J​×N_J}.$$
 
 MSCOCO 데이터셋의 스켈레톤 구조
 
@@ -191,9 +191,9 @@ $$
 L_{\text{HOI}} = \lambda \times J_{\text{param}} \times L_{\text{joint}}^{\text{init}} + L_{\text{conf}}
 $$
 
-$L_{\text{joint}}^{\text{init}}$  : L1 distance from GT joints
+$$L_{\text{joint}}^{\text{init}}$$  : L1 distance from GT joints
 
-$L_{\text{conf}}$ : L1 loss be- tween predicted confidences and GT confidences
+$$L_{\text{conf}}$$ : L1 loss be- tween predicted confidences and GT confidences
 
 $$
 J_{\text{param}} = \text{softmax} \left( \frac{1}{\text{dist}(J_{\text{GT}}, \text{center}(B_{\text{object}}))} \right)
