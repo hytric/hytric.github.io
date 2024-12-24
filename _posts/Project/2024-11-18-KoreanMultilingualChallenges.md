@@ -171,3 +171,20 @@ Multilingual으로 hubert를 학습할 때 다음과 같은 현상 발생, 언�
 ![page_3_high_res_v3.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_3_high_res_v3.png)
 
 ![page_4_high_res_v3.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_4_high_res_v3.png)
+
+ 
+<br>
+
+### Final Progress
+
+![page_1_final.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_1.jpg)
+
+![page_2_final.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_2.jpg)
+
+![page_3_final.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_3.jpg)
+
+![page_4_final.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_4.jpg)
+
+ ![page_5_final.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_5.jpg)
+
+![page_6_final.png](/assets/Images/2024-11-18-KoreanMultilingualChallenges/page_6.jpg)
