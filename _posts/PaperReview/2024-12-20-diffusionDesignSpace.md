@@ -121,7 +121,7 @@ $$
 
 score function 과 denoiser 관계 → noise를 제거하는 방향
 
-diffusion model 은  신경망 $D_θ(x;σ)$$를 구현
+diffusion model 은  신경망 $$D_θ(x;σ)$$를 구현
 
 ### **Time-dependent signal scaling**
 
