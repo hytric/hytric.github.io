@@ -21,7 +21,7 @@ title                    : "세상 밖으로 나온 무"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jongha Kim"
-description              : "Generation model을 공부하는 블로그"
+description              : "AI & ML Engineer study Blog"
 url                      : "https://hytric.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/hytric/hytric.github.io"
