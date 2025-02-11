@@ -4,6 +4,8 @@ main:
     url: /posts/
 
 docs:
+  - title: "CV"
+    url: /CV/
   - title: "PaperReview"
     url: /PaperReview/
   - title: "Startup"
