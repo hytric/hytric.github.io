@@ -137,6 +137,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "https://hytric.github.io/assets/CV/CV.pdf"
 
 # Site Footer
 footer:
