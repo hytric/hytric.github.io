@@ -1,6 +1,6 @@
 ---
 title: "[논문분석] CONTEXTUAL ADAPTERS FOR PERSONALIZED SPEECH RECOGNITION IN NEURAL TRANSDUCERS"
-last_modified_at: 2025-7-10
+last_modified_at: 2025-7-11
 categories:
   - PaperReview
 excerpt: "neural contextual adapter를 활용한 context-biasing"
