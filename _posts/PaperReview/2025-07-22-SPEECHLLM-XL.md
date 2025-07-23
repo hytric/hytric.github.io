@@ -3,7 +3,7 @@ title: "[논문분석] Efficient Streaming LLM for Speech Recognition"
 last_modified_at: 2025-7-20
 categories:
   - PaperReview
-excerpt: "CPU에서도 실시간으로 동작하는 Sound Enhancement model"
+excerpt: "ASR에 Decoder를 LLM으로 사용, LoRA finetuning"
 use_math: true
 classes: wide
 ---
