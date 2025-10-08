@@ -140,6 +140,9 @@ author:
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"
       url: "https://hytric.github.io/assets/CV/CV.pdf"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "https://hytric.github.io/assets/CV/Project_portfolio.pdf"
 
 # Site Footer
 footer:
