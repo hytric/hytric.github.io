@@ -143,6 +143,9 @@ author:
     - label: "Portfolio"
       icon: "fas fa-fw fa-file-pdf"
       url: "https://hytric.github.io/assets/CV/Project_portfolio.pdf"
+    - label: "Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://moos-tudy.tistory.com"
 
 # Site Footer
 footer:
